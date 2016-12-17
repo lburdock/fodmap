@@ -1,5 +1,5 @@
-import React, { PropTypes } from 'react';
-import Input from '../containers/input';
+import React from 'react';
+import Nav from './nav.react';
 
 /**
  * Creates the entire App component
@@ -7,16 +7,11 @@ import Input from '../containers/input';
 const App = React.createClass({
     render() {
         return (
-            <div>
-                <h1>Magic <div>8</div> Ball</h1>
-                <Input />
-                <div className="answer">{this.props.answer}</div>
+            <div className="main">
+                <Nav />
+                <main>{this.props.children}</main>
             </div>
         );
-    },
-
-    propTypes: {
-        answer: PropTypes.string,
     },
 });
 

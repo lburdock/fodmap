@@ -1,5 +1,5 @@
 import actionTypes from '../actions/types';
-import { getRandomIndex } from '../utils/math-utils';
+// import { getRandomIndex } from '../utils/math-utils';
 
 const possibleAnswers = [
     "It is certain.",
@@ -23,7 +23,7 @@ const possibleAnswers = [
     "Outlook not so good.",
     "Very doubtful.",
 ];
-const arrayLength = possibleAnswers.length;
+// const arrayLength = possibleAnswers.length;
 
 /**
  * Returns a random answer
@@ -35,7 +35,7 @@ export default function(state = '', action) {
 
     switch (action.type) {
         case actionTypes.GET_ANSWER:
-            return possibleAnswers[getRandomIndex(arrayLength)];
+            return possibleAnswers[2];
 
         default:
             return state;

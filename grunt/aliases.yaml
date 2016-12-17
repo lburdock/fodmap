@@ -1,12 +1,7 @@
 default:
     - "watch"
 
-lint:
+verify:
+    - "sasslint"
     - "eslint"
-
-test:
     - "mochaTest"
-
-bundle:
-    - "sass"
-    - "webpack"

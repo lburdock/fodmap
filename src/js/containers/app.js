@@ -1,9 +1,9 @@
 import { connect } from 'react-redux';
 import App from '../components/app.react';
 
-function mapStateToProps(state) {
+function mapStateToProps() {
     return {
-        answer: state.answer,
+        answer: "delete me",
     };
 }
 

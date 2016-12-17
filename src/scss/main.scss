@@ -1,5 +1,11 @@
 @import 'vendor/normalize';
 
+@import 'variables/colors';
+@import 'variables/media-queries';
+
+@import 'components/about';
 @import 'components/base';
-@import 'components/app';
-@import 'components/input';
+@import 'components/category';
+@import 'components/contribute';
+@import 'components/food-group';
+@import 'components/header';

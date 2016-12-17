@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
 import { getAnswer } from '../actions/answer';
-import Input from '../components/input.react';
+import Input from '../components/search.react';
 
 function mapDispatchToProps(dispatch) {
     return {

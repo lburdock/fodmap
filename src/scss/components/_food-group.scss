@@ -1,0 +1,63 @@
+.low-fodmap,
+.moderate-fodmap,
+.high-fodmap {
+    h2 {
+        padding: 5px 10px;
+    }
+}
+
+.low-fodmap {
+    border-top: 3px solid $low-fodmap-color;
+
+    h2,
+    ul {
+        color: $low-fodmap-color;
+        span { color: $food-item-color; }
+    }
+}
+
+.moderate-fodmap {
+    border-top: 3px solid $moderate-fodmap-color;
+
+    h2,
+    ul {
+        color: $moderate-fodmap-color;
+        span { color: $food-item-color; }
+    }
+}
+
+.high-fodmap {
+    border-top: 3px solid $high-fodmap-color;
+
+    h2,
+    ul {
+        color: $high-fodmap-color;
+        span { color: $food-item-color; }
+    }
+}
+
+
+@media #{$medium-media-query} {
+    .low-fodmap,
+    .moderate-fodmap,
+    .high-fodmap {
+        border-top: 0;
+
+        h2 {
+            color: $white;
+            text-shadow: 2px 2px $text-shadow;
+        }
+    }
+
+    .high-fodmap {
+        h2 { background: $high-fodmap-color; }
+    }
+
+    .moderate-fodmap {
+        h2 { background: $moderate-fodmap-color; }
+    }
+
+    .low-fodmap {
+        h2 { background: $low-fodmap-color; }
+    }
+}
