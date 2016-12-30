@@ -1,7 +1,7 @@
 {
-  "name": "react-redux-boilerplate",
+  "name": "fodmap",
   "version": "1.0.0",
-  "description": "A list of low and high fodmap foods",
+  "description": "A searchable list of low and high fodmap foods",
   "main": "Gruntfile.js",
   "repository": {
     "type": "git",

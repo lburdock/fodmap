@@ -1,5 +1,6 @@
 import keymirror from 'keymirror';
 
 module.exports = keymirror({
-    GET_ANSWER: null,
+    SEARCH_FODMAP: null,
+    VIEW_ALL_FODMAP: null,
 });

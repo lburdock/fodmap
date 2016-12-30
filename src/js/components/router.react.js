@@ -5,7 +5,7 @@ import { createHashHistory } from 'history';
 import App from './app.react';
 import About from './about.react';
 import Contribute from './contribute.react';
-import List from './list.react';
+import List from '../containers/list';
 import Sources from './sources.react';
 
 const history = useRouterHistory(createHashHistory)({ queryKey: false });

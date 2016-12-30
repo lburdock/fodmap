@@ -1,7 +1,7 @@
 module.exports = {
     js: {
-        files: ["src/js/**/*.js"],
-        tasks: ["eslint", "mochaTest"]
+        files: ["src/js/**/*.js", "tests/js/**/*.js"],
+        tasks: ["eslint", "mochaTest"],
     },
     sass: {
         options: {

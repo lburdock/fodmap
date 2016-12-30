@@ -1,6 +1,6 @@
-# react-flux-boilerplate
+# FODMAP
 
-This is a boilerplate for a react/redux app using grunt, sass, and webpack.
+This mobile-friendly website provides a searchable list of low and high FODMAP foods.
 
 ## Installation
 
@@ -24,6 +24,11 @@ This is a boilerplate for a react/redux app using grunt, sass, and webpack.
 
 ## Resources
 
+* Design
+  * (Color palette)[http://www.colourlovers.com/palette/3895872/Autumnal_Warm_Spell]
+  * (The Ultimate Flexbox Cheat Sheet)[http://www.sketchingwithcss.com/samplechapter/cheatsheet.html]
+  * (CSS Tricks: A Complete Guide to Flexbox)[https://css-tricks.com/snippets/css/a-guide-to-flexbox/]
+
 * React structure
   * [Facebook's Todo tutorial](https://facebook.github.io/flux/docs/todo-list.html)
   * [Facebook's Todo app on github](https://github.com/facebook/flux/tree/master/examples/flux-todomvc)
@@ -38,13 +43,3 @@ This is a boilerplate for a react/redux app using grunt, sass, and webpack.
 
 * Deployment
     * [Deploying a subfolder to GitHub Pages](https://gist.github.com/cobyism/4730490)
-
-
-http://www.colourlovers.com/palette/3895872/Autumnal_Warm_Spell
-http://www.sketchingwithcss.com/samplechapter/cheatsheet.html
-https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-
-http://www.colourlovers.com/palette/3895872/Autumnal_Warm_Spell
-https://github.com/reactjs/react-router/blob/master/upgrade-guides/v2.0.0.md#using-custom-histories
-
-http://www.andjrnl.org/article/S2212-2672(12)01355-X/abstract

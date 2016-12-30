@@ -2,6 +2,7 @@
 
 @import 'variables/colors';
 @import 'variables/media-queries';
+@import 'variables/mixins';
 
 @import 'components/about';
 @import 'components/base';
@@ -9,3 +10,4 @@
 @import 'components/contribute';
 @import 'components/food-group';
 @import 'components/header';
+@import 'components/input';

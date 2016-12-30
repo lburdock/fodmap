@@ -1,8 +1,8 @@
 import { combineReducers } from 'redux';
-import answer from './answer';
+import allCategoriesFood from './food';
 
 const rootReducer = combineReducers({
-    answer,
+    allCategoriesFood,
 });
 
 export default rootReducer;
