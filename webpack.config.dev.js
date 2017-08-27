@@ -1,38 +1,39 @@
-var path = require('path');
-var webpack = require('webpack');
-var ExtractTextPlugin = require('extract-text-webpack-plugin');
+const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-    devtool: 'eval',
-    entry: [
-        "webpack-dev-server/client?http://localhost:3000",
-        "webpack/hot/only-dev-server",
-        "./src/js/index",
-        "./src/scss/main.scss"
-    ],
+    entry: './src/js/index.js',
+
     output: {
-        path: path.join(__dirname, 'dist'),
-        publicPath: '/',
-        filename: "bundle.min.js"
+        path: path.resolve('build'),
+        filename: 'bundle.min.js'
     },
+
+    resolve: {
+        extensions: ['.js', '.jsx', '.scss']
+    },
+
     module: {
         loaders: [
             {
-                test: /\.js$/,
-                exclude: /node_modules/,
-                loaders: ['react-hot', 'babel'],
-                include: path.join(__dirname, 'src')
+                test: /\.jsx?$/,
+                loader: 'babel-loader',
+                exclude: /node_modules/
             },
             {
                 test: /\.scss$/,
-                loader: ExtractTextPlugin.extract('css!sass')
-            }
-        ],
+                loaders: ["style-loader", "css-loader", "sass-loader"]
+            },
+        ]
     },
+
     plugins: [
-        new ExtractTextPlugin("styles.min.css", {
-            allChunks: true
-        }),
-        new webpack.HotModuleReplacementPlugin(),
-    ]
-};
+        new HtmlWebpackPlugin({
+            template: './src/index.html',
+            filename: 'index.html',
+            inject: 'body'
+        })
+    ],
+
+    devtool: 'inline-source-map'
+}
