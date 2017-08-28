@@ -6,9 +6,10 @@ describe("Food reducer", function () {
     it("responds to 'SEARCH_FODMAP' action type by returning the initial state", () => {
         const action = { type: 'SEARCH_FODMAP', searchterm: "butter" };
         const expected = [
-            { type: "Beverages", food: [] },
+            { type: "Beverages", id: "beverages", food: [] },
             {
                 type: "Dairy",
+                id: "dairy",
                 food: [{
                     id: "butter",
                     category: "dairy",
@@ -16,13 +17,13 @@ describe("Food reducer", function () {
                     fodmapStatus: "low",
                 }],
             },
-            { type: "Fats", food: [] },
-            { type: "Fruit", food: [] },
-            { type: "Grains", food: [] },
-            { type: "Herbs", food: [] },
-            { type: "Meat & legumes", food: [] },
-            { type: "Sweeteners", food: [] },
-            { type: "Vegetables", food: [] },
+            { type: "Fats", id: "fats", food: [] },
+            { type: "Fruit", id: "fruit", food: [] },
+            { type: "Grains", id: "grains", food: [] },
+            { type: "Herbs", id: "herbs", food: [] },
+            { type: "Meat & legumes", id: "meat-legumes", food: [] },
+            { type: "Sweeteners", id: "sweeteners", food: [] },
+            { type: "Vegetables", id: "vegetables", food: [] },
         ];
         const result = reducer([], action);
 

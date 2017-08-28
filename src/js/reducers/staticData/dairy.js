@@ -16,7 +16,7 @@ const foodOptions = [
         category: "dairy",
         displayName: "Cheese, soft & fresh (like ricotta, cottage)",
         fodmapStatus: "high",
-        fodmap: ['lactose'],
+        fodmap: ["lactose"],
     },
     {
         id: "milk",

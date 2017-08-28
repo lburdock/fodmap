@@ -1,6 +1,6 @@
-import actionTypes from '../actions/types';
-import { displayNameHasSearchterm } from '../utils/search-utils';
-import foodCategories from './staticData/food-categories';
+import actionTypes from "../actions/types";
+import { displayNameHasSearchterm } from "../utils/search-utils";
+import foodCategories from "./staticData/food-categories";
 
 
 /**
@@ -9,18 +9,22 @@ import foodCategories from './staticData/food-categories';
  * @param {object} action The action that triggers this rtermeducer
  * @return {string} The of food categories with their type and food
  */
-export default function(state = foodCategories, action) {
-
+export default function (state = foodCategories, action) {
     switch (action.type) {
         // Filter the food array of each object with the searchterm
-        case actionTypes.SEARCH_FODMAP:
+        case actionTypes.SEARCH_FODMAP: {
             const filterFoodBySearchterm = displayNameHasSearchterm(action.searchterm);
-            return foodCategories.map(category => Object.assign({}, category, { food: category.food.filter(filterFoodBySearchterm) }));
+            return foodCategories.map(category => (
+                Object.assign({}, category, { food: category.food.filter(filterFoodBySearchterm) })
+            ));
+        }
 
-        case actionTypes.VIEW_ALL_FODMAP:
+        case actionTypes.VIEW_ALL_FODMAP: {
             return foodCategories;
+        }
 
-        default:
+        default: {
             return state;
+        }
     }
 }

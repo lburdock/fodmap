@@ -1,7 +1,7 @@
-import { bindActionCreators } from 'redux';
-import { connect } from 'react-redux';
-import List from '../components/list.react';
-import * as SearchActions from '../actions/search';
+import { bindActionCreators } from "redux";
+import { connect } from "react-redux";
+import List from "../components/List";
+import * as SearchActions from "../actions/search";
 
 /**
  * Takes state from store and maps its properties to the component's props

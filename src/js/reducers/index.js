@@ -1,5 +1,5 @@
-import { combineReducers } from 'redux';
-import allCategoriesFood from './food';
+import { combineReducers } from "redux";
+import allCategoriesFood from "./food";
 
 const rootReducer = combineReducers({
     allCategoriesFood,
