@@ -1,7 +1,0 @@
-default:
-    - "watch"
-
-verify:
-    - "sasslint"
-    - "eslint"
-    - "mochaTest"

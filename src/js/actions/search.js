@@ -1,4 +1,4 @@
-import actionTypes from './types';
+import actionTypes from "./types";
 
 /**
  * Action to search the food items

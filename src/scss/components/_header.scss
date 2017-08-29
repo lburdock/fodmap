@@ -1,3 +1,5 @@
+$underline: 2px solid $high-fodmap-color;
+
 .nav {
     color: $high-fodmap-color;
     display: flex;
@@ -29,8 +31,13 @@
             color: $high-fodmap-color;
         }
 
-        &:hover {
-            border-bottom: 2px solid $high-fodmap-color;
+        &:hover, &.selected {
+            border-bottom: $underline;
+        }
+
+        &.selected {
+            pointer-events: none;
+            border-bottom: $underline;
         }
     }
 }
