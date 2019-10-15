@@ -1,0 +1,11 @@
+.activeLink {
+  border: 0;
+  border-left: 2px solid #00d1b2;
+}
+
+@media screen and (min-width: 1024px) {
+  .activeLink {
+    border: 0;
+    border-bottom: 2px solid #00d1b2;
+  }
+}
