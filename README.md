@@ -4,26 +4,48 @@ This mobile-friendly website provides a searchable list of low and high FODMAP f
 
 ## Installation
 
-```
-git clone git@github.com:lburdock/fodmap.git
-nvm use
-npm install
-```
+1. Install the [Gatsby](https://www.gatsbyjs.org/) CLI:
 
-## Running the server locally
+   ```
+   npm install -g gatsby-cli
+   ```
 
-* Run `npm start` to start the server and watch for code changes
-* Open http://localhost:8080/ in your browser
+1. Clone the repo and change directories:
 
-#### Other tasks
+   ```
+   git clone git@github.com:lburdock/fodmap.git
+   cd fodmap
+   ```
 
-* Run tests: `npm run test`
-* Lint code: `npm run lint`
-* Compile code: `npm run compile`
+1. Update your node version using [nvm](https://github.com/nvm-sh/nvm/):
 
-## Resources
+   ```
+   nvm use
+   ```
 
-* [Color palette](http://www.colourlovers.com/palette/3895872/Autumnal_Warm_Spell)
-* [The Ultimate Flexbox Cheat Sheet](http://www.sketchingwithcss.com/samplechapter/cheatsheet.html)
-* [CSS Tricks: A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+1. Install the dependencies:
 
+   ```
+   npm install
+   ```
+
+## Developing locally
+
+1. Start the development sever:
+
+   ```
+   gatsby develop
+   ```
+
+2. Open http://localhost:8000/
+
+## Other tasks
+
+- Run tests:
+  ```
+  npm run test
+  ```
+- Lint the code:
+  ```
+  npm run lint
+  ```

@@ -1,0 +1,94 @@
+[
+  {
+    "author": ["PR Gibson", "SJ Shepherd"],
+    "id": "10.1111/j.1440-1746.2009.06149.x",
+    "issue": 2,
+    "journal": "Journal of Gastroenterology and Hepatology",
+    "pages": "252-258",
+    "title": "Evidence-based dietary management of functional gastrointestinal symptoms: The FODMAP approach.",
+    "type": "journal",
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/20136989",
+    "volume": 25,
+    "year": 2010
+  },
+  {
+    "author": ["PR Gibson", "SJ Shepherd"],
+    "id": "10.1038/ajg.2012.49",
+    "issue": 5,
+    "journal": "The American Journal of Gastroenterology",
+    "pages": "657-666",
+    "title": "Food Choice as a Key Management Strategy for Functional Gastrointestinal Symptoms.",
+    "type": "journal",
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/22488077",
+    "volume": 107,
+    "year": 2012
+  },
+  {
+    "author": ["W Marcason"],
+    "id": "10.1016/j.jand.2012.08.005",
+    "issue": 10,
+    "journal": "Journal of the Academy of Nutrition and Dietetics",
+    "pages": "1696",
+    "title": "What Is the FODMAP Diet?",
+    "type": "journal",
+    "url": "http://www.andjrnl.org/article/S2212-2672(12)01355-X/abstract",
+    "volume": 112,
+    "year": 2012
+  },
+  {
+    "author": [
+      "JR Biesiekierski",
+      "O Rosella",
+      "R Rose",
+      "K Liels",
+      "JS Barrett",
+      "SJ Shepherd",
+      "PR Gibson",
+      "JG Muir"
+    ],
+    "id": "10.1111/j.1365-277x.2010.01139.x",
+    "issue": 2,
+    "journal": "Journal of Human Nutrition and Dietetics",
+    "pages": "154-176",
+    "title": "Quantification of fructans, galacto-oligosacharides and other short-chain carbohydrates in processed grains and cereals.",
+    "type": "journal",
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/21332832",
+    "volume": 24,
+    "year": 2011
+  },
+  {
+    "author": [
+      "JG Muir",
+      "SJ Shepherd",
+      "O Rosella",
+      "R Rose",
+      "JS Barrett",
+      "PR Gibson"
+    ],
+    "id": "10.1021/jf070623x",
+    "issue": 16,
+    "journal": "Journal of Agricultural and Food Chemistry",
+    "pages": "6619-6627",
+    "title": "Fructan and Free Fructose Content of Common Australian Vegetables and Fruit.",
+    "type": "journal",
+    "url": "http://www.ncbi.nlm.nih.gov/pubmed/17625872",
+    "volume": 55,
+    "year": 2007
+  },
+  {
+    "accessed": "2019-09-16",
+    "id": "monash-fodmap",
+    "publisher": ["Monash University"],
+    "title": "Starting the FODMAP diet",
+    "type": "website",
+    "url": "https://www.monashfodmap.com/ibs-central/i-have-ibs/starting-the-low-fodmap-diet/"
+  },
+  {
+    "accessed": "2019-09-16",
+    "id": "usda-fooddata-central",
+    "publisher": ["USDA"],
+    "title": "FoodData Central",
+    "type": "website",
+    "url": "https://fdc.nal.usda.gov/"
+  }
+]

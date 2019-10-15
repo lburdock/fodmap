@@ -1,0 +1,6 @@
+@media (min-width: 800px) {
+  div.maxWidthContainer {
+    margin: 0 auto;
+    max-width: 800px;
+  }
+}

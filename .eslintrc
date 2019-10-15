@@ -1,27 +1,26 @@
 {
-    "env": {
-        "browser": true,
-        "node": true,
-        "es6": true,
-        "mocha": true,
-    },
-    "parserOptions": {
-        "sourceType": "module",
-        "ecmaFeatures": {
-            "jsx": true,
-            "modules": true
-        },
-    },
-    "plugins": [
-        "react"
-    ],
-    "extends": "airbnb",
-    "parser": "babel-eslint",
-    "rules": {
-        "indent": ["error", 4, { "SwitchCase": 1 }],
-        "quotes": ["error", "double"],
-        "import/prefer-default-export": 0,
-        "react/jsx-indent": [2, 4],
-        "react/jsx-indent-props": [2, 4]
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "jest/globals": true,
+    "node": true
+  },
+  "rules": {
+    "strict": 0,
+    "no-console": "warn",
+    "react/prop-types": "warn",
+    "no-unused-vars": "warn"
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:jest/recommended",
+    "plugin:jsx-a11y/recommended"
+  ],
+  "plugins": ["jsx-a11y", "jest"],
+  "settings": {
+    "react": {
+      "version": "detect"
     }
+  }
 }
