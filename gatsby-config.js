@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/fodmap",
   siteMetadata: {
     title: `Fodmap·DB`,
     description: `The FODMAP diet can help you reduce the symptoms of IBS. Learn which foods are high or low FODMAP.`,

@@ -9,15 +9,16 @@ const SearchBar = ({
   submitText,
   value,
 }) => (
-  <form className={styles.formMobile} onSubmit={onSubmit}>
+  <form className={styles.formMobile} onSubmit={onSubmit} role="search">
     <div className="field has-addons">
       <div className="control">
         <input
+          aria-label="Search the food list"
           className="input"
-          type="text"
-          placeholder={placeholderText}
-          value={value}
           onChange={onChange}
+          placeholder={placeholderText}
+          type="search"
+          value={value}
         />
       </div>
       <div className="control">
@@ -28,16 +29,14 @@ const SearchBar = ({
 );
 
 SearchBar.propTypes = {
-  onChange: PropTypes.func,
-  onSubmit: PropTypes.func,
+  onChange: PropTypes.func.isRequired,
+  onSubmit: PropTypes.func.isRequired,
   placeholderText: PropTypes.string,
   submitText: PropTypes.string,
   value: PropTypes.string,
 };
 
 SearchBar.defaultProps = {
-  onChange: null,
-  onSubmit: null,
   placeholderText: "Enter a food name",
   submitText: "Search",
   value: "",
