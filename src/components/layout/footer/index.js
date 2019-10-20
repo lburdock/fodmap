@@ -18,7 +18,10 @@ const Footer = ({ pages, title }) => (
       </p>
       <p>
         Contribute to {title} on{" "}
-        <ExternalLink to="https://github.com/lburdock">Github</ExternalLink>.
+        <ExternalLink to="https://github.com/lburdock/fodmap">
+          Github
+        </ExternalLink>
+        .
       </p>
     </div>
   </footer>

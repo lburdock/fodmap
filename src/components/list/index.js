@@ -5,7 +5,7 @@ import { hasItems } from "../../utils/list";
 import ListItem from "./list-item";
 
 const divider = (
-  <hr className="has-background-grey-lighter" style={{ width: "100%" }} />
+  <hr className="has-background-grey-light" style={{ width: "100%" }} />
 );
 
 const ListSection = ({ displayName, groups }) => (
@@ -13,7 +13,7 @@ const ListSection = ({ displayName, groups }) => (
     <div className="columns is-vcentered is-mobile">
       <div className="column">{divider}</div>
       <div className="column is-narrow">
-        <div className="is-uppercase has-text-grey">{displayName}</div>
+        <div className="is-uppercase has-text-grey-dark">{displayName}</div>
       </div>
       <div className="column">{divider}</div>
     </div>
