@@ -1,0 +1,674 @@
+[
+  {
+    "id": "fruit-juice",
+    "category": "beverages",
+    "displayName": "Fruit juice",
+    "fodmapStatus": "high",
+    "fodmap": ["fructose"]
+  },
+  {
+    "id": "butter",
+    "category": "dairy",
+    "displayName": "Butter",
+    "fodmapStatus": "low"
+  },
+  {
+    "id": "cheese-hard",
+    "category": "dairy",
+    "displayName": "Cheese, hard (like brie, camembert)",
+    "fodmapStatus": "low"
+  },
+  {
+    "id": "cheese-soft",
+    "category": "dairy",
+    "displayName": "Cheese, soft & fresh (like ricotta, cottage)",
+    "fodmapStatus": "high",
+    "fodmap": ["lactose"]
+  },
+  {
+    "id": "milk",
+    "category": "dairy",
+    "displayName": "Milk (cow, goat, and sheep)",
+    "fodmapStatus": "high",
+    "fodmap": ["lactose"]
+  },
+  {
+    "id": "milk-lactose-free",
+    "category": "dairy",
+    "displayName": "Milk, lactose-free (like rice milk)",
+    "fodmapStatus": "low"
+  },
+  {
+    "id": "ice-cream",
+    "category": "dairy",
+    "displayName": "Ice cream",
+    "fodmapStatus": "high",
+    "fodmap": ["lactose"]
+  },
+  {
+    "id": "ice-cream-substitutes",
+    "category": "dairy",
+    "displayName": "Ice cream substitutes (like sorbet)",
+    "fodmapStatus": "low"
+  },
+  {
+    "id": "yogurt",
+    "category": "dairy",
+    "displayName": "Yogurt",
+    "fodmapStatus": "high",
+    "fodmap": ["lactose"]
+  },
+  {
+    "id": "yogurt-lactose-free",
+    "category": "dairy",
+    "displayName": "Yogurt, lactose-free",
+    "fodmapStatus": "low"
+  },
+  {
+    "id": "oil",
+    "category": "fats",
+    "displayName": "Oils",
+    "fodmapStatus": "low"
+  },
+  {
+    "id": "oil-infused",
+    "category": "fats",
+    "displayName": "Oils, infused with garlic",
+    "fodmapStatus": "low"
+  },
+  {
+    "id": "apples",
+    "category": "fruit",
+    "displayName": "Apples",
+    "fodmapStatus": "high",
+    "fodmap": ["fructose", "polyols"]
+  },
+  {
+    "id": "apricots",
+    "category": "fruit",
+    "displayName": "Apricots",
+    "fodmapStatus": "high",
+    "fodmap": ["polyols"]
+  },
+  {
+    "id": "avocados",
+    "category": "fruit",
+    "displayName": "Avocados",
+    "fodmapStatus": "high",
+    "fodmap": ["polyols"]
+  },
+  {
+    "id": "banana",
+    "category": "fruit",
+    "displayName": "Banana",
+    "fodmapStatus": "low"
+  },
+  {
+    "id": "blackberries",
+    "category": "fruit",
+    "displayName": "Blackberries",
+    "fodmapStatus": "high",
+    "fodmap": ["polyols"]
+  },
+  {
+    "id": "blueberries",
+    "category": "fruit",
+    "displayName": "Blueberries",
+    "fodmapStatus": "low"
+  },
+  {
+    "id": "canned-fruit",
+    "category": "fruit",
+    "displayName": "Canned fruit (in natural juice)",
+    "fodmapStatus": "high",
+    "fodmap": ["fructose"]
+  },
+  {
+    "id": "carambola",
+    "category": "fruit",
+    "displayName": "Carambola",
+    "fodmapStatus": "low"
+  },
+  {
+    "id": "cherries",
+    "category": "fruit",
+    "displayName": "Cherries",
+    "fodmapStatus": "high",
+    "fodmap": ["fructose", "polyols"]
+  },
+  {
+    "id": "custard-apple",
+    "category": "fruit",
+    "displayName": "Custard apple",
+    "fodmapStatus": "high",
+    "fodmap": ["oligos"]
+  },
+  {
+    "id": "dried-fruit",
+    "category": "fruit",
+    "displayName": "Dried fruit",
+    "fodmapStatus": "high",
+    "fodmap": ["fructose"]
+  },
+  {
+    "id": "durian",
+    "category": "fruit",
+    "displayName": "Durian",
+    "fodmapStatus": "low"
+  },
+  {
+    "id": "grapefruit",
+    "category": "fruit",
+    "displayName": "Grapefruit",
+    "fodmapStatus": "low"
+  },
+  {
+    "id": "grapes",
+    "category": "fruit",
+    "displayName": "Grapes",
+    "fodmapStatus": "low"
+  },
+  {
+    "id": "honeydew",
+    "category": "fruit",
+    "displayName": "Honeydew melon",
+    "fodmapStatus": "low"
+  },
+  {
+    "id": "kiwifruit",
+    "category": "fruit",
+    "displayName": "Kiwifruit",
+    "fodmapStatus": "low"
+  },
+  {
+    "id": "lemons",
+    "category": "fruit",
+    "displayName": "Lemons",
+    "fodmapStatus": "low"
+  },
+  {
+    "id": "limes",
+    "category": "fruit",
+    "displayName": "Limes",
+    "fodmapStatus": "low"
+  },
+  {
+    "id": "longon",
+    "category": "fruit",
+    "displayName": "Logon",
+    "fodmapStatus": "high",
+    "fodmap": ["polyols"]
+  },
+  {
+    "id": "lychee",
+    "category": "fruit",
+    "displayName": "Lychee",
+    "fodmapStatus": "high",
+    "fodmap": ["polyols"]
+  },
+  {
+    "id": "mandarin",
+    "category": "fruit",
+    "displayName": "Mandarin",
+    "fodmapStatus": "low"
+  },
+  {
+    "id": "mangos",
+    "category": "fruit",
+    "displayName": "Mangos",
+    "fodmapStatus": "high",
+    "fodmap": ["fructose"]
+  },
+  {
+    "id": "nectarines",
+    "category": "fruit",
+    "displayName": "Nectaries",
+    "fodmapStatus": "high",
+    "fodmap": ["polyols"]
+  },
+  {
+    "id": "oranges",
+    "category": "fruit",
+    "displayName": "Oranges",
+    "fodmapStatus": "low"
+  },
+  {
+    "id": "passionfruit",
+    "category": "fruit",
+    "displayName": "Passionfruit",
+    "fodmapStatus": "low"
+  },
+  {
+    "id": "paw paw",
+    "category": "fruit",
+    "displayName": "Paw paw",
+    "fodmapStatus": "low"
+  },
+  {
+    "id": "peaches",
+    "category": "fruit",
+    "displayName": "Peaches",
+    "fodmapStatus": "high",
+    "fodmap": ["polyols"]
+  },
+  {
+    "id": "peaches-clingstone",
+    "category": "fruit",
+    "displayName": "Peaches (clingstone)",
+    "fodmapStatus": "high",
+    "fodmap": ["fructose"]
+  },
+  {
+    "id": "peaches-white",
+    "category": "fruit",
+    "displayName": "Peaches (white)",
+    "fodmapStatus": "high",
+    "fodmap": ["oligos"]
+  },
+  {
+    "id": "pears",
+    "category": "fruit",
+    "displayName": "Pears",
+    "fodmapStatus": "high",
+    "fodmap": ["fructose", "polyols"]
+  },
+  {
+    "id": "pears-nashi",
+    "category": "fruit",
+    "displayName": "Pears (nashi)",
+    "fodmapStatus": "high",
+    "fodmap": ["fructose", "polyols"]
+  },
+  {
+    "id": "persimmon",
+    "category": "fruit",
+    "displayName": "Persimmon",
+    "fodmapStatus": "high",
+    "fodmap": ["oligos"]
+  },
+  {
+    "id": "plums",
+    "category": "fruit",
+    "displayName": "Plums",
+    "fodmapStatus": "high",
+    "fodmap": ["polyols"]
+  },
+  {
+    "id": "prunes",
+    "category": "fruit",
+    "displayName": "Prunes",
+    "fodmapStatus": "high",
+    "fodmap": ["polyols"]
+  },
+  {
+    "id": "rambutan",
+    "category": "fruit",
+    "displayName": "Rambutan",
+    "fodmapStatus": "high",
+    "fodmap": ["oligos"]
+  },
+  {
+    "id": "raspberries",
+    "category": "fruit",
+    "displayName": "Raspberries",
+    "fodmapStatus": "low"
+  },
+  {
+    "id": "rockmelon",
+    "category": "fruit",
+    "displayName": "Rockmelon",
+    "fodmapStatus": "low"
+  },
+  {
+    "id": "strawberries",
+    "category": "fruit",
+    "displayName": "Strawberries",
+    "fodmapStatus": "low"
+  },
+  {
+    "id": "sugar-snap-peas",
+    "category": "fruit",
+    "displayName": "Sugar Snap Peas",
+    "fodmapStatus": "high",
+    "fodmap": ["fructose"]
+  },
+  {
+    "id": "tangelo",
+    "category": "fruit",
+    "displayName": "Tangelo",
+    "fodmapStatus": "low"
+  },
+  {
+    "id": "watermelon",
+    "category": "fruit",
+    "displayName": "Watermelon",
+    "fodmapStatus": "high",
+    "fodmap": ["fructose", "polyols", "oligos"]
+  },
+  {
+    "id": "grains-wheat",
+    "category": "grains",
+    "displayName": "Grains, wheat and rye grains (bread, pasta, crackers, biscuits, etc)",
+    "fodmapStatus": "high",
+    "fodmap": ["oligos"]
+  },
+  {
+    "id": "grains-gluten-free",
+    "category": "grains",
+    "displayName": "Grains, gluten-free and spelt (bread, pasta, crackers, biscuits, etc)",
+    "fodmapStatus": "low"
+  },
+  {
+    "id": "baked-beans",
+    "category": "meat-legumes",
+    "displayName": "Baked beans",
+    "fodmapStatus": "high",
+    "fodmap": ["oligos"]
+  },
+  {
+    "id": "chickpeas",
+    "category": "meat-legumes",
+    "displayName": "Chickpeas",
+    "fodmapStatus": "high",
+    "fodmap": ["oligos"]
+  },
+  {
+    "id": "lentils",
+    "category": "meat-legumes",
+    "displayName": "Lentils",
+    "fodmapStatus": "high",
+    "fodmap": ["oligos"]
+  },
+  {
+    "id": "meat",
+    "category": "meat-legumes",
+    "displayName": "Meat",
+    "fodmapStatus": "low"
+  },
+  {
+    "id": "red-kidney-beans",
+    "category": "meat-legumes",
+    "displayName": "Red kidney beans",
+    "fodmapStatus": "high",
+    "fodmap": ["oligos"]
+  },
+  {
+    "id": "artificial-sweeteners",
+    "category": "sweeteners",
+    "displayName": "Artificial sweeteners (not ending in '-ol')",
+    "fodmapStatus": "low"
+  },
+  {
+    "id": "fructose",
+    "category": "sweeteners",
+    "displayName": "Fructose",
+    "fodmapStatus": "high",
+    "fodmap": ["fructose"]
+  },
+  {
+    "id": "glucose",
+    "category": "sweeteners",
+    "displayName": "Glucose",
+    "fodmapStatus": "low"
+  },
+  {
+    "id": "golden-syrup",
+    "category": "sweeteners",
+    "displayName": "Golden syrup",
+    "fodmapStatus": "low"
+  },
+  {
+    "id": "high-fructose-corn-syrup",
+    "category": "sweeteners",
+    "displayName": "High fructose corn syrup",
+    "fodmapStatus": "high",
+    "fodmap": ["fructose"]
+  },
+  {
+    "id": "honey",
+    "category": "sweeteners",
+    "displayName": "Honey",
+    "fodmapStatus": "high",
+    "fodmap": ["fructose"]
+  },
+  {
+    "id": "isomalt",
+    "category": "sweeteners",
+    "displayName": "Isomalt",
+    "fodmapStatus": "high",
+    "fodmap": ["polyols"]
+  },
+  {
+    "id": "maple-syrup",
+    "category": "sweeteners",
+    "displayName": "Maple syrup",
+    "fodmapStatus": "low"
+  },
+  {
+    "id": "sugar",
+    "category": "sweeteners",
+    "displayName": "Sugar (sucrose)",
+    "fodmapStatus": "low"
+  },
+  {
+    "id": "sugar-alcohols",
+    "category": "sweeteners",
+    "displayName": "Sugar alcohols like maltitol, mannitol, sorbitol, xylitol, and others ending in '-ol'",
+    "fodmapStatus": "high",
+    "fodmap": ["polyols"]
+  },
+  {
+    "id": "artichokes",
+    "category": "vegetables",
+    "displayName": "Artichokes",
+    "fodmapStatus": "high",
+    "fodmap": ["fructuse", "oligos"]
+  },
+  {
+    "id": "asparagus",
+    "category": "vegetables",
+    "displayName": "Asparagus",
+    "fodmapStatus": "high",
+    "fodmap": ["oligos"]
+  },
+  {
+    "id": "bamboo shoots",
+    "category": "vegetables",
+    "displayName": "Bamboo shoots",
+    "fodmapStatus": "low"
+  },
+  {
+    "id": "beetroot",
+    "category": "vegetables",
+    "displayName": "beetroot",
+    "fodmapStatus": "high",
+    "fodmap": ["oligos"]
+  },
+  {
+    "id": "bok-choy",
+    "category": "vegetables",
+    "displayName": "Bok choy",
+    "fodmapStatus": "low"
+  },
+  {
+    "id": "brussels-sprout",
+    "category": "vegetables",
+    "displayName": "Brussels sprouts",
+    "fodmapStatus": "high",
+    "fodmap": ["oligos"]
+  },
+  {
+    "id": "broccoli",
+    "category": "vegetables",
+    "displayName": "Broccoli",
+    "fodmapStatus": "high",
+    "fodmap": ["oligos"]
+  },
+  {
+    "id": "cabbage",
+    "category": "vegetables",
+    "displayName": "Cabbage",
+    "fodmapStatus": "high",
+    "fodmap": ["oligos"]
+  },
+  {
+    "id": "capsicum",
+    "category": "vegetables",
+    "displayName": "Capsicum",
+    "fodmapStatus": "low"
+  },
+  {
+    "id": "carrot",
+    "category": "vegetables",
+    "displayName": "Carrot",
+    "fodmapStatus": "low"
+  },
+  {
+    "id": "cauliflower",
+    "category": "vegetables",
+    "displayName": "Cauliflower",
+    "fodmapStatus": "high",
+    "fodmap": ["polyols"]
+  },
+  {
+    "id": "celery",
+    "category": "vegetables",
+    "displayName": "Celery",
+    "fodmapStatus": "low"
+  },
+  {
+    "id": "chives",
+    "category": "vegetables",
+    "displayName": "Chives",
+    "fodmapStatus": "low"
+  },
+  {
+    "id": "choko",
+    "category": "vegetables",
+    "displayName": "Choko",
+    "fodmapStatus": "low"
+  },
+  {
+    "id": "choy-sum",
+    "category": "vegetables",
+    "displayName": "Choy-sum",
+    "fodmapStatus": "low"
+  },
+  {
+    "id": "corn",
+    "category": "vegetables",
+    "displayName": "corn",
+    "fodmapStatus": "low"
+  },
+  {
+    "id": "eggplant",
+    "category": "vegetables",
+    "displayName": "Eggplant",
+    "fodmapStatus": "low"
+  },
+  {
+    "id": "fennel",
+    "category": "vegetables",
+    "displayName": "Fennel",
+    "fodmapStatus": "high",
+    "fodmap": ["oligos"]
+  },
+  {
+    "id": "garlic",
+    "category": "vegetables",
+    "displayName": "Garlic",
+    "fodmapStatus": "high",
+    "fodmap": ["oligos"]
+  },
+  {
+    "id": "green-beans",
+    "category": "vegetables",
+    "displayName": "Green beans",
+    "fodmapStatus": "low"
+  },
+  {
+    "id": "leeks",
+    "category": "vegetables",
+    "displayName": "Leeks",
+    "fodmapStatus": "high",
+    "fodmap": ["oligos"]
+  },
+  {
+    "id": "lettuce",
+    "category": "vegetables",
+    "displayName": "Lettuce",
+    "fodmapStatus": "low"
+  },
+  {
+    "id": "mushrooms",
+    "category": "vegetables",
+    "displayName": "Mushrooms",
+    "fodmapStatus": "high",
+    "fodmap": ["polyols"]
+  },
+  {
+    "id": "okra",
+    "category": "vegetables",
+    "displayName": "Okra",
+    "fodmapStatus": "high",
+    "fodmap": ["oligos"]
+  },
+  {
+    "id": "onion",
+    "category": "vegetables",
+    "displayName": "Onion",
+    "fodmapStatus": "high",
+    "fodmap": ["oligos"]
+  },
+  {
+    "id": "parnsips",
+    "category": "vegetables",
+    "displayName": "Parsnips",
+    "fodmapStatus": "low"
+  },
+  {
+    "id": "peas",
+    "category": "vegetables",
+    "displayName": "Peas",
+    "fodmapStatus": "high",
+    "fodmap": ["oligos"]
+  },
+  {
+    "id": "pumpkin",
+    "category": "vegetables",
+    "displayName": "Pumpkin",
+    "fodmapStatus": "low"
+  },
+  {
+    "id": "shallots",
+    "category": "vegetables",
+    "displayName": "Shallots",
+    "fodmapStatus": "high",
+    "fodmap": ["oligos"]
+  },
+  {
+    "id": "silverbeet",
+    "category": "vegetables",
+    "displayName": "Silverbeet",
+    "fodmapStatus": "low"
+  },
+  {
+    "id": "snow-peas",
+    "category": "vegetables",
+    "displayName": "Snow peas",
+    "fodmapStatus": "high",
+    "fodmap": ["polyols"]
+  },
+  {
+    "id": "spring-onion",
+    "category": "vegetables",
+    "displayName": "Spring onion (green part only)",
+    "fodmapStatus": "low"
+  },
+  {
+    "id": "tomato",
+    "category": "vegetables",
+    "displayName": "Tomato",
+    "fodmapStatus": "low"
+  }
+]
